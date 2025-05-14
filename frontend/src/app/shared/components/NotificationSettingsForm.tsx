@@ -121,7 +121,7 @@ export module NotificationsForm {
                             <Forms.Time name={`${field}.time`}
                                 label={texts.common.timeOfDay} />
 
-                            <Forms.Time name={`${field}.delayInSeconds`}
+                            <Forms.Number name={`${field}.delayInSeconds`}
                                 label={texts.notificationSettings.delayInSeconds} />
                         </div>
                     }
